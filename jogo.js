@@ -93,6 +93,7 @@ function reiniciar() {
         element.classList.remove('playerO')
         element.classList.remove('cordovencedor')
     jogadorSelecionado.classList.remove('playerX', 'playerO')
+    jogadorVencedor.classList.remove('playerX', 'playerO')
     MudarJogador('X')
     jogoParado = false
     });
